@@ -19,3 +19,8 @@ string statusBMI(double bmi) {
         return "Obesitas" ;
     }
 }
+
+// Prosedur untuk input data
+void inputData(double &berat, double &tinggi) {
+    
+}
