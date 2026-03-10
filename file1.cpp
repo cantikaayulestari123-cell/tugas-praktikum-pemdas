@@ -27,5 +27,12 @@ void inputData(double &berat, double &tinggi) {
     cin >> berat;
     cout << " Masukkan tinggi badan (meter) :";
     cin >> tinggi;
+}
 
+int main() {
+    double berat, tinggi;
+    inputData(berat, tinggi);
+    
+    double bmi = hitungBMI(berat, tinggi);
+    string status = statusBMI(bmi);
 }
